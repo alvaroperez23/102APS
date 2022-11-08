@@ -1,5 +1,5 @@
-//Apartado 2
-console.log("\nAPARTADO 2\n");
+//Apartado 3
+console.log("\nAPARTADO 3\n");
 let objeto1 = new Object();
 objeto1.nombre = 'Maxwell Wright';
 objeto1.numero = '(0191) 719 6495';
@@ -23,6 +23,17 @@ objeto4.numero = '0913 531 3030 ';
 objeto4.correo = 'risus.Quisque@urna.ca.';
 
 
+//Apartado 3 
 arrayDatos.push(objeto4);
-console.log(arrayDatos);
+
+let pantallaNombre = prompt ("Introduce el nombre y apellido: ");
+let pantallaNumero = prompt ("Introduce el numero de telefono: ");
+let pantallaCorreo = prompt ("Introduce el correo electronico: ");
+
+let objeto5 = new Object();
+objeto5.nombre = pantallaNombre;
+objeto5.numero = pantallaNumero;
+objeto5.correo = pantallaCorreo;
+
+arrayDatos.push(objeto5);
 console.log(arrayDatos[0], arrayDatos[(arrayDatos.length) - 1]);
